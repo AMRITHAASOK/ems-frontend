@@ -1,3 +1,59 @@
+
+                            EMS  - Frontend
+
+                1. Project Creation - npx create-react-app ems-frontend
+                2. cd ems-frontend
+                3. code .
+                4. Clean the code
+                5. Run the Project - npm start
+                6. Install 3rd party libraries - 
+                    ->Fontawesome - copy the fontawesome cdnjs into index.html
+                    ->Google Fonts - copy the google-fonts @import into index.css
+                    ->mdbootstrap - 
+                                    -npm i mdb-react-ui-kit
+                         -INDEX.JS  -import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+                    -Select theme - bootswatch theme
+                                    -download and paste it into src
+                                    -import into index.js 
+                                    import './bootstrap.min.css';
+                7. Create components
+                        ->Admin.js
+                        ->Add.js
+                        ->View.js
+                        ->Edit.js
+                        ->Pagenotfound.js
+                8. Path setup
+                    ->install react-router-dom - npm i react-router-dom
+
+                    -in index.js
+                                <BrowserRouter>
+                                    <APP/>
+                                 <BrowserRouter/>
+                    -In app.js
+                            import {Routes,Route} from 'react-router-dom';
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
